@@ -37,7 +37,7 @@ const Header: React.FC = () => {
       <Container>
         <div className="flex items-center justify-between py-4">
           <a href="#home" className="text-xl font-bold text-blue-600 dark:text-blue-400">
-            DevPortfolio
+            Hetuk's Portfolio
           </a>
 
           {/* Desktop Navigation */}

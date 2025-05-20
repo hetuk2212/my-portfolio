@@ -4,31 +4,32 @@ import { CheckCircle, Calendar, Briefcase, GraduationCap } from 'lucide-react';
 
 const About: React.FC = () => {
   const experiences = [
-    {
-      title: 'Senior Frontend Developer',
-      company: 'Tech Solutions Inc.',
-      period: '2022 - Present',
-      description: 'Leading the frontend development team, implementing modern React applications, and establishing coding standards.',
-      icon: <Briefcase className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
-    },
-    {
-      title: 'Fullstack Developer',
-      company: 'Digital Innovations',
-      period: '2019 - 2022',
-      description: 'Developed and maintained web applications using React, Node.js, and MongoDB, implementing RESTful APIs.',
-      icon: <Briefcase className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
-    },
-    {
-      title: 'Junior Web Developer',
-      company: 'Creative Web Studio',
-      period: '2017 - 2019',
-      description: 'Built responsive websites and implemented frontend features using HTML, CSS, and JavaScript.',
-      icon: <Briefcase className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
-    },
-  ];
+  {
+    title: 'Frontend Developer',
+    company: 'Tankar Solutions Pvt Ltd',
+    period: '2024 - Present',
+    description: 'Leading frontend tasks in React-based projects and collaborating with UI/UX teams to ensure a seamless experience.',
+    icon: <Briefcase className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
+  },
+  {
+    title: 'Fullstack Developer',
+    company: 'PM Communications',
+    period: '2022 - 2024',
+    description: 'Developed full-stack web applications using React and Node.js, with a focus on scalable backend design and responsive UI.',
+    icon: <Briefcase className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
+  },
+  {
+    title: 'Junior Web Developer',
+    company: 'BM Coder',
+    period: '2021 - 2022',
+    description: 'Worked on website development projects, contributed to UI improvements, and optimized JavaScript code for better performance.',
+    icon: <Briefcase className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
+  },
+];
+
 
   const stats = [
-    { value: '5+', label: 'Years Experience' },
+    { value: '4+', label: 'Years Experience' },
     { value: '30+', label: 'Projects Completed' },
     { value: '15+', label: 'Happy Clients' },
     { value: '5+', label: 'Technologies Mastered' },
@@ -109,11 +110,11 @@ const About: React.FC = () => {
             <div>
               <h4 className="text-xl font-semibold">Bachelor of Science in Computer Science</h4>
               <div className="flex items-center text-gray-500 dark:text-gray-400 mb-2">
-                <span>University of Technology</span>
+                <span>Sal College Of Engineering</span>
                 <span className="mx-2">•</span>
                 <span className="flex items-center">
                   <Calendar className="w-4 h-4 mr-1" />
-                  2013 - 2017
+                  2021 - 2024
                 </span>
               </div>
               <p className="text-gray-600 dark:text-gray-300">

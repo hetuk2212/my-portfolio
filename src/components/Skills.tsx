@@ -53,7 +53,7 @@ const Skills: React.FC = () => {
       <div className="rounded-full bg-blue-100 dark:bg-gray-700 p-2 mr-3 text-blue-600 dark:text-blue-400">
         {getIconComponent(skill.icon)}
       </div>
-      <span className="font-medium">{skill.name}</span>
+      <span className="font-medium text-black dark:text-white">{skill.name}</span>
     </div>
   );
   
